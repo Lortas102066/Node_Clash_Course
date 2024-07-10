@@ -1,18 +1,17 @@
 {
-  "name": "node_clash_course",
+  "name": "4.3-partials",
   "version": "1.0.0",
-  "description": "Node crash course",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Lortas102066",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "uuid": "^10.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
   }
 }
